@@ -1,0 +1,253 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <header>
+        <h1>Salon Booking</h1>
+        <p>Your one-stop solution for beauty and grooming services</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#booking">Book Now</a>
+    </nav>
+     
+    <div class="topnav">
+        <input type="text" placeholder="Search..">
+
+        <div class="sign-up">
+           <img src="img/userlogo.svg" >
+        </div>
+      </div>
+
+      <div class="menu-bar">
+        <a class="active" href="#"><img src="img/logo2.png" ></a>
+        <a href="#">Menu2</a>
+        <a href="#">Menu3</a>
+        <a href="#">Menu4</a>
+      </div>
+
+
+      <div class="main_box-container">
+        <div class="img_box"><img src="img/salon3.jpeg" ></div>
+        <div class="img_box"><img src="img/salon4.jpeg" ></div>
+        <div class="img_box"><img src="img/salon3.jpeg" ></div>
+        <div class="img_box"><img src="img/salon4.jpeg" ></div>
+    
+    </div> -->
+
+    <!-- <div class="container" id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="https://via.placeholder.com/80" alt="Haircut">
+            <div class="service-info">
+                <h3>Haircut</h3>
+                <p>Get a stylish haircut from our professional stylists.</p>
+            </div>
+            <button>Book Now</button>
+        </div>
+
+        <div class="service">
+            <img src="https://via.placeholder.com/80" alt="Manicure">
+            <div class="service-info">
+                <h3>Manicure</h3>
+                <p>Experience the best manicure service in town.</p>
+            </div>
+            <button>Book Now</button>
+        </div>
+
+        <div class="service">
+            <img src="https://via.placeholder.com/80" alt="Facial">
+            <div class="service-info">
+                <h3>Facial</h3>
+                <p>Rejuvenate your skin with our refreshing facial treatments.</p>
+            </div>
+            <button>Book Now</button>
+        </div>
+
+        <div class="service">
+            <img src="https://via.placeholder.com/80" alt="Spa">
+            <div class="service-info">
+                <h3>Spa</h3>
+                <p>Relax and unwind with our soothing spa services.</p>
+            </div>
+            <button>Book Now</button>
+        </div>
+    </div> -->
+
+    <!-- <div class="container" id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <h3>John Doe</h3>
+            <p>"Amazing service! The staff was very professional and friendly. I highly recommend their spa services."</p>
+        </div>
+        <div class="testimonial">
+            <h3>Jane Smith</h3>
+            <p>"I love this salon! Their haircuts and facials are the best. A truly relaxing experience every time."</p>
+        </div>
+    </div>
+
+    <div class="container" id="booking">
+        <h2>Book Your Appointment</h2>
+        <form class="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="haircut">Haircut</option>
+                <option value="manicure">Manicure</option>
+                <option value="facial">Facial</option>
+                <option value="spa">Spa</option>
+            </select>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="message">Additional Notes:</label>
+            <textarea id="message" name="message" placeholder="Any specific requirements..." rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Salon Booking. All Rights Reserved.</p>
+    </footer>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bms-header">
+        <div class="logo">
+            <img src="img/logo.png">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for salons">
+            <button class="search-button">
+                <img src="img/search icon.png" alt="Search">
+            </button>
+        </div>
+        <div class="location">
+            <span>Trivandrum</span>
+            <span class="dropdown-icon">▼</span>
+        </div>
+        <button class="sign-in">Sign in</button>
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="recommended-movies">
+        <div class="section-header">
+            <h2>Recommended Salons</h2>
+            <a href="#" class="see-all">See All ›</a>
+        </div>
+        <div class="movie-list">
+            <div class="movie-card" >
+                <div class="movie" onclick="openMovieDetails('Toni&Guy')">
+                    <div onclick="redirectToDetails('Toni&Guy')">
+                       <img src="img/toni&guy bckimg.jpg">
+                    </div>
+                <div class="movie-info">
+                    <div class="rating">
+                        <span>⭐ 8.1/10</span>
+                        <span>6.3K Votes</span>
+                    </div>
+                    <h3>Toni&Guy</h3>
+                    <!-- <p></p> -->
+                </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie" onclick="openMovieDetails('Abc')">
+                    <div onclick="redirectToDetails('Abc')">
+                       <img src="img/salon2.avif">
+                    </div>
+                <div class="movie-info">
+                    <div class="rating">
+                        <span>⭐ 8.6/10</span>
+                        <span>83.4K Votes</span>
+                    </div>
+                    <h3>Abc</h3>
+                    <!-- <p>Action/Thriller</p> -->
+                </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie" onclick="openMovieDetails('Bcd')">
+                    <div onclick="redirectToDetails('Bcd')">
+                       <img src="img/salon 1.webp">
+                    </div>
+                <div class="movie-info">
+                    <div class="rating">
+                        <span>⭐ 8.8/10</span>
+                        <span>20.8K Votes</span>
+                    </div>
+                    <h3>Bcd</h3>
+                    <!-- <p>Action/Drama</p> -->
+                </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                 <div class="movie" onclick="openMovieDetails('Cde')">
+                    <div onclick="redirectToDetails('Cde')">
+                        <img src="img/salon3.jpeg">
+                  </div>
+                <div class="movie-info">
+                    <div class="rating">
+                        <span>⭐ 6.8/10</span>
+                        <span>10.4K Votes</span>
+                    </div>
+                    <h3>Cde</h3>
+                    <!-- <p>Action/Adventure/Fantasy</p> -->
+                </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="movie" onclick="openMovieDetails('Def')">
+                    <div onclick="redirectToDetails('Def')">
+                       <img src="img/salon4.jpeg">
+                    </div>
+                <div class="movie-info">
+                    <div class="rating">
+                        <span>⭐ 8.4/10</span>
+                        <span>54.7K Votes</span>
+                    </div>
+                    <h3>Def</h3>
+                    <!-- <p>Adventure/Animation/Drama</p> -->
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        function redirectToDetails(movieName) {
+          // Redirect to the details.html page
+          window.location.href = `details.html?salon=${movieName}`;
+        }
+      </script>
+      
+</body>
+</html>
